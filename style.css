@@ -61,3 +61,132 @@ button:visited {
     padding-top:200px;
 
 }
+
+.textbox {
+    width:400px;
+    height:30px;
+    border-radius:15px;
+    border-color:lightgray;
+    text-indent: 20px;
+}
+
+.textbox:focus {
+    outline-width: 0;
+}
+
+.buttons {
+    border: none;
+    text-align:center;
+}
+
+.middle {
+    width:120px;
+    height:35px;
+    margin: 10px;
+    border: none;
+    color: rgb(30, 30, 30)
+}
+
+.middle:hover {
+    border: lightgray;
+    color: black;
+}/*styling the header part of the website*/
+
+ul {
+    margin-top: 15px;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}   
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.left {
+    float:left;
+    margin-left: 10px
+}
+
+.right {
+    float:right;
+    margin-right: 20px;
+}
+
+button.login {
+    background-color: #4584ef;
+    border: none;
+    margin: 0px;
+    height: 30px;
+    width: 70px;
+    color:white;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+button.apps {
+    background-color: white;
+    border: none;
+    line-height: 5px;
+    font-weight: 700;
+}
+
+button.apps:hover{
+    color:black;
+}
+button:visited {
+    border:none;
+}
+
+/* styling the body part of the website */
+
+.center {
+    text-align: center;
+    padding-top:200px;
+
+}
+
+.textbox {
+    width:400px;
+    height:30px;
+    border-radius:15px;
+    border-color:lightgray;
+    text-indent: 20px;
+    font-size: 16px;;
+}
+
+.textbox:focus {
+    outline-width: 0;
+}
+
+.buttons {
+    border: 2px;
+    border-color: white;
+    text-align:center;
+
+}
+
+.middle {
+    width:120px;
+    height:35px;
+    margin: 10px;
+    border: 2px;
+    color: rgb(30, 30, 30);
+}
+
+.button:hover {
+    border: 2px;
+    border-color:black;
+    color: black;
+}
+
+/* styling the footer of the page */
+
