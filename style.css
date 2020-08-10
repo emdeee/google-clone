@@ -57,6 +57,7 @@ button:visited {
 /* styling the body part of the website */
 
 .center {
-    position:fixed;
+    text-align: center;
+    padding-top:200px;
 
 }
